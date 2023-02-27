@@ -8,7 +8,8 @@
 3. opening TBL_Replace.m file and editing the parameters in this file.
 4. running the main function MT_Trans.m without any input.
 
-# Copyright 2023 Feng Jiang South China Sea Institute of Oceanology.
+# Copyright 
+Copyright 2023 Feng Jiang South China Sea Institute of Oceanology.
 
 # License:
 This package is free to use under the terms of the GNU General Public License.

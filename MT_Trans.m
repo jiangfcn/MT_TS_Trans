@@ -5,7 +5,7 @@ function MT_Trans
 % designed by Chen Kai from University of Geosciences (Beijing), China.
 % -TS5 is a time seried format used by MTU-A receiver designed by Phoenix
 % Geophysics, Canada.
-% -It is your responsiblity for editing the TBLpar.m and TBL_Replace.m and making sure that all the parameters are correct and match your recording instrument.
+% -It is your responsibility to editing the TBLpar.m and TBL_Replace.m and making sure that all the parameters are correct and match your recording instrument.
 
 u = TBLpar; % load a sample of TBL parameters.
 %

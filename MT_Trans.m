@@ -5,11 +5,7 @@ function MT_Trans
 % designed by Chen Kai from University of Geosciences (Beijing), China.
 % -TS5 is a time seried format used by MTU-A receiver designed by Phoenix
 % Geophysics, Canada.
-% -TBL file is a parameter file that have to be included if we need to
-% convert the time series in TS5 to MT transfer functions with SSMT2000 package
-% provided by Phoenix Geophysics.Therefore, it is your responsiblity for
-% editing the TBLpar.m and TBL_Replace.m and making sure that all the parameters
-% are correct and match your recording instrument.
+% -It is your responsiblity for editing the TBLpar.m and TBL_Replace.m and making sure that all the parameters are correct and match your recording instrument.
 
 u = TBLpar; % load a sample of TBL parameters.
 %

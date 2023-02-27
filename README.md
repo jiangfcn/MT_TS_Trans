@@ -9,7 +9,10 @@
 4. running the main function MT_Trans.m without any input.
 
 # Copyright 
-Copyright 2023 Feng Jiang South China Sea Institute of Oceanology.
+Copyright 2023 Feng Jiang (South China Sea Institute of Oceanology).
 
 # License:
 This package is free to use under the terms of the GNU General Public License.
+
+# Acknowledgement
+* Part of scripts were orignial written by Mingren Hong (CUG,BJ) on the Shiyan 6 ship of the 2022 marine geophysical cruise. I would like to thank him and the research group leaded by Kai Chen (CUG,BJ)

@@ -5,7 +5,7 @@
 # Gulidelines:
 1. adding this package to your MATLAB's PATH
 2. copying the TBL_Replace.m file to your work direcrion.
-3. opening TBL_Replace.m file and editing the parameters in this file. It is your responsibility to edit the TBLpar.m and TBL_Replace.m and make sure that all the parameters in these two files are correct and match your measurements.
+3. opening TBL_Replace.m file and editing the parameters in this file. Note that it is your responsibility to edit the TBLpar.m and TBL_Replace.m and make sure that all the parameters in these two files are correct and match your measurements.
 4. running the main function MT_Trans.m without any input.
 
 # Notes:
@@ -13,7 +13,7 @@
 2. Signals with frequencis above 5 Hz have been removed at default by the 'filter_mt.m'.
 
 # Copyright 
-Copyright 2023 Feng Jiang (South China Sea Institute of Oceanology).
+Copyright 2023 Feng Jiang (South China Sea Institute of Oceanology, CAS).
 
 # License:
 This package is free to use under the terms of the GNU General Public License.

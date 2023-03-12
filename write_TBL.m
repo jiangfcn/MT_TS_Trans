@@ -68,9 +68,10 @@ for i = 1:length(par{1}) % number of fields
     end
 end
 % -----DON'T KONOW WHY THE FLLOW 25 BYTES IS NEEDED!----------------------
-% endinfo = zeros(1,25);
-% endinfo(1,6) = 3; 
-% fwrite(fid,endinfo,'uchar');
+endinfo = zeros(1,25);
+endinfo(1,6) = 3; 
+fwrite(fid,endinfo,'uchar');
+% if the TBL end without these 25 bytes, hit 'Edit TBL' button in the SSMT2000 will make the software crash.
 
 fclose(fid);
 end % end of the main function.

@@ -47,7 +47,7 @@ scan_size = 3*nCh; % 3 bytes * number of channel.One sample at each channel occu
 scan_length = freqs; % the length of scan equal to the freqs (number of samples per second).
 record_length = size(field,1)/freqs; % the record length = the totel number of samples divided by freqs
 if mod(record_length,1)~=0 % checking the number of the recordings
-    warning(['the totel number of samples cannot exact divided by freqs ',num2str(freqs),'Hz']);
+    warning(['the totel number of samples cannot exactly divided by freqs ',num2str(freqs),'Hz']);
     record_length = fix(record_length); % deleted the last samples with time long less than 1s. 
 end
 

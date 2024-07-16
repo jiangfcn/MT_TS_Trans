@@ -1,3 +1,8 @@
+# Bugs may encounter:
+I was informed with some bugs when other people run this code package with different versions of MATLAB, which I am not able to debug and update them timely, but will be listed here:
+* Error using datetime:  'Inputformat' should be specified:'yyyy/mm/dd HH:mm:ss' when the datetime function is called.
+
+  
 # MT_TS_Trans
 * It is a MATLAB script package for transferring magnetotelluric (MT) time series (TS) to the format the SSMT2000 package can process.
 * Look at the TBLpar.m and TBL_Replace.m files before running the main function MT_Trans.m.
